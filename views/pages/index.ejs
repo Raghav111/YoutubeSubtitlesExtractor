@@ -8,27 +8,16 @@
 </head>
 
 <body>
-
-  <header>
-    <% include ../partials/header %>
-  </header>
   <main>
-    <nav class="navbar navbar-expand-xl navbar-light shadow p-3 mb-5 bg-white rounded" style="
-      background-color: #e3f2fd;>
-      <
-      a class=;
-      height: 67px;
-      " navbar-brand"="" href="#">
-      <img src="/static/images/yt.png" height="30" style="margin-left: 10px;padding-left: 20px;padding-right: 20px;margin-right: 10px;">
+    <nav class="navbar navbar-expand-xl navbar-light shadow p-3 mb-5 bg-white rounded">
+      <a class="navbar-brand" href="#">
+      <img src="/static/images/yt.png" height="30" style="margin-left: 10px;padding-left: 20px;padding-right: 20px;margin-right: 10px;margin-top: 20px;">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <form class="form-inline" style="
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 100px;
+    margin-left: 310px;
     margin-right: 10px;
 ">
           <div class="input-group mb-3" style="margin-top: 16px;">
@@ -57,13 +46,19 @@
             <p>Fetch transcript from youtube videos</p>
         </div> -->
 
-
-    <div id="content" hidden class="panel panel-default">
+        <div id="content" hidden class="jumbotron jumbotron-fluid">
+          <div class="container panel-heading">
+            <h1 class="display-4">Transcript</h1>
+          </div>
+          <div class="panel-body lead"> Content </div>
+          </div>
+        </div>
+    <!--<div id="content" hidden class="panel panel-default">
       <div style="height:45px; padding:5px;" class="panel-heading">
         Transcript
       </div>
       <div class="panel-body"> Content </div>
-    </div>
+    </div>-->
   </main>
 
   <footer>
@@ -73,6 +68,9 @@
 </body>
 
 </html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
 
